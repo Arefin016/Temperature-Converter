@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LabAssignment_2</string>
+    <string name="edittext_Name">Conversion:</string>
+    <string name="button_Name1">Fahrenheit to Celcius</string>
+    <string name="button_Name2">Celcius to Fahrenheit</string>
+    <string name="convert">CONVERT</string>
+</resources>

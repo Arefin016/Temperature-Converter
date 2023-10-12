@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <EditText
+     android:id="@+id/conversionEditId"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/edittext_Name"
+     android:textSize="20sp"
+     />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_Name1"
+            />
+        <RadioButton
+            android:id="@+id/radioButtonId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_Name2"
+            />
+</RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingLeft="5dp">
+
+        <EditText
+            android:id="@+id/editTextId1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="30sp"
+            android:padding="10sp"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/editTextId2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/showMessageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
